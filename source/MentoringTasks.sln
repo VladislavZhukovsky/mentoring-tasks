@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Expressions And IQuery
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expressions", "03 - Expressions and IQueryable\Expressions\Expressions.csproj", "{8672E9C1-9ABA-45EA-BD03-8B9F884589CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQueryable", "03 - Expressions and IQueryable\IQueryable\IQueryable.csproj", "{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,16 @@ Global
 		{8672E9C1-9ABA-45EA-BD03-8B9F884589CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8672E9C1-9ABA-45EA-BD03-8B9F884589CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8672E9C1-9ABA-45EA-BD03-8B9F884589CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8672E9C1-9ABA-45EA-BD03-8B9F884589CF} = {B66249EC-75FA-42CD-8757-11EFEEBC58F1}
+		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0} = {B66249EC-75FA-42CD-8757-11EFEEBC58F1}
 	EndGlobalSection
 EndGlobal
