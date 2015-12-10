@@ -61,5 +61,22 @@ namespace Sample03
                 Console.WriteLine("{0} {1}", emp.nativename, emp.startworkdate);
             }
         }
+
+        /// <summary>
+        /// Changes are in classes:
+        ///     E3SQueryClient
+        ///     FTSRequestGenerator
+        ///     ExpressionToFTSRequestTranslator
+        ///     
+        /// </summary>
+        [TestMethod]
+        public void TaskPart3And()
+        {
+            var employees = new E3SEntitySet<EmployeeEntity>(ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["password"]);
+            foreach (var emp in employees.Where(e => e.workstation.StartsWith("EPBYMINW42") && e.workstation.EndsWith("7")))
+            {
+                Console.WriteLine("{0} {1}", emp.nativename, emp.startworkdate);
+            }
+        }
     }
 }

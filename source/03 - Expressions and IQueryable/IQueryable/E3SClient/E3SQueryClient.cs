@@ -36,12 +36,12 @@ namespace Sample03.E3SClient
 		}
 
 
-		public IEnumerable SearchFTS(Type type, string query, int start = 0, int limit = 0)
+		public IEnumerable SearchFTS(Type type, string[] queries, int start = 0, int limit = 0)
 		{
 			HttpClient client = CreateClient();
 			var requestGenerator = new FTSRequestGenerator(BaseAddress);
 
-			Uri request = requestGenerator.GenerateRequestUrl(type, query, start, limit);
+			Uri request = requestGenerator.GenerateRequestUrl(type, queries, start, limit);
 
 			var resultString = client.GetStringAsync(request).Result;
 			var endType = typeof(FTSResponse<>).MakeGenericType(type);

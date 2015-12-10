@@ -38,8 +38,10 @@ namespace Sample03
 
 			var translator = new ExpressionToFTSRequestTranslator();
 			var queryString = translator.Translate(expression);
+            
+            var queryStrings = queryString.Split('|');
 
-			return (TResult)(e3sClient.SearchFTS(itemType, queryString));
-		}
+            return (TResult)(e3sClient.SearchFTS(itemType, queryStrings));
+        }
 	}
 }
