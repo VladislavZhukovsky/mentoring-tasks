@@ -10,7 +10,7 @@ namespace Sample03
     [TestClass]
     public class E3SProviderTests
     {
-        [TestMethod]
+        //[TestMethod]
         public void TaskPart1()
         {
             //Changes are in class ExpressionToFTSRequestTranslator
@@ -23,7 +23,7 @@ namespace Sample03
             }
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void TaskPart2StartsWith()
         {
             //Changes are in class ExpressionToFTSRequestTranslator
@@ -36,7 +36,7 @@ namespace Sample03
             }
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void TaskPart2EndsWith()
         {
             //Changes are in class ExpressionToFTSRequestTranslator
@@ -49,7 +49,7 @@ namespace Sample03
             }
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void TaskPart2Contains()
         {
             //Changes are in class ExpressionToFTSRequestTranslator
@@ -69,7 +69,7 @@ namespace Sample03
         ///     ExpressionToFTSRequestTranslator
         ///     
         /// </summary>
-        [TestMethod]
+        //[TestMethod]
         public void TaskPart3And()
         {
             var employees = new E3SEntitySet<EmployeeEntity>(ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["password"]);
