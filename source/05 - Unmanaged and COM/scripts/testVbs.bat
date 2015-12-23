@@ -1,0 +1,1 @@
+C:\Windows\SysWOW64\cscript.exe "D:\Vlad\Mentoring\mentoring-tasks\source\05 - Unmanaged and COM\scripts\test.vbs"

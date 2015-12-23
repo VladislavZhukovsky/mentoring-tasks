@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Expressions And IQueryable", "03 - Expressions And IQueryable", "{B66249EC-75FA-42CD-8757-11EFEEBC58F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expressions", "03 - Expressions and IQueryable\Expressions\Expressions.csproj", "{8672E9C1-9ABA-45EA-BD03-8B9F884589CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQueryable", "03 - Expressions and IQueryable\IQueryable\IQueryable.csproj", "{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Unmanaged And COM", "05 - Unmanaged And COM", "{440D0F00-BCA6-4908-94D2-3F2F714FE6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerManagement", "05 - Unmanaged and COM\PowerManagement\PowerManagement.csproj", "{5C051988-868C-489D-BBAD-D3B7B629BE41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerManagement.Tests", "05 - Unmanaged and COM\PowerManagement.Tests\PowerManagement.Tests.csproj", "{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C051988-868C-489D-BBAD-D3B7B629BE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C051988-868C-489D-BBAD-D3B7B629BE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C051988-868C-489D-BBAD-D3B7B629BE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C051988-868C-489D-BBAD-D3B7B629BE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8672E9C1-9ABA-45EA-BD03-8B9F884589CF} = {B66249EC-75FA-42CD-8757-11EFEEBC58F1}
 		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0} = {B66249EC-75FA-42CD-8757-11EFEEBC58F1}
+		{5C051988-868C-489D-BBAD-D3B7B629BE41} = {440D0F00-BCA6-4908-94D2-3F2F714FE6BF}
+		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332} = {440D0F00-BCA6-4908-94D2-3F2F714FE6BF}
 	EndGlobalSection
 EndGlobal
