@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Expressions And IQueryable", "03 - Expressions And IQueryable", "{B66249EC-75FA-42CD-8757-11EFEEBC58F1}"
 EndProject
@@ -14,6 +14,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerManagement", "05 - Unmanaged and COM\PowerManagement\PowerManagement.csproj", "{5C051988-868C-489D-BBAD-D3B7B629BE41}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerManagement.Tests", "05 - Unmanaged and COM\PowerManagement.Tests\PowerManagement.Tests.csproj", "{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 - Message Queues", "08 - Message Queues", "{8E397D4F-0706-419E-A09B-14B212D6CB72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentProcessor", "DocumentProcessor", "{FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentProcessor.Core", "08 - Message Queues\DocumentProcessor\DocumentProcessor.Core\DocumentProcessor.Core.csproj", "{A0A17443-9AAA-4FF3-A8A0-2A0D5E0271AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentProcessor.FileService", "08 - Message Queues\DocumentProcessor\DocumentProcessor.FileService\DocumentProcessor.FileService.csproj", "{759F4042-A226-4BA6-99BA-132654A2CD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentProcessor.ProcessorService", "08 - Message Queues\DocumentProcessor\DocumentProcessor.ProcessorService\DocumentProcessor.ProcessorService.csproj", "{2EEF1F71-96CF-451B-BC74-B72C30E0925F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +47,18 @@ Global
 		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A17443-9AAA-4FF3-A8A0-2A0D5E0271AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A17443-9AAA-4FF3-A8A0-2A0D5E0271AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A17443-9AAA-4FF3-A8A0-2A0D5E0271AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A17443-9AAA-4FF3-A8A0-2A0D5E0271AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759F4042-A226-4BA6-99BA-132654A2CD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759F4042-A226-4BA6-99BA-132654A2CD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759F4042-A226-4BA6-99BA-132654A2CD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759F4042-A226-4BA6-99BA-132654A2CD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEF1F71-96CF-451B-BC74-B72C30E0925F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEF1F71-96CF-451B-BC74-B72C30E0925F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEF1F71-96CF-451B-BC74-B72C30E0925F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEF1F71-96CF-451B-BC74-B72C30E0925F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +68,9 @@ Global
 		{30464A25-0953-4C02-83A9-E3BFCA4B0EE0} = {B66249EC-75FA-42CD-8757-11EFEEBC58F1}
 		{5C051988-868C-489D-BBAD-D3B7B629BE41} = {440D0F00-BCA6-4908-94D2-3F2F714FE6BF}
 		{84F119F5-F21E-4E8B-A7EB-CCB6606A4332} = {440D0F00-BCA6-4908-94D2-3F2F714FE6BF}
+		{FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3} = {8E397D4F-0706-419E-A09B-14B212D6CB72}
+		{A0A17443-9AAA-4FF3-A8A0-2A0D5E0271AC} = {FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}
+		{759F4042-A226-4BA6-99BA-132654A2CD36} = {FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}
+		{2EEF1F71-96CF-451B-BC74-B72C30E0925F} = {FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}
 	EndGlobalSection
 EndGlobal
