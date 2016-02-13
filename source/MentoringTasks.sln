@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentProcessor.FileServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentProcessor.ProcessorService", "08 - Message Queues\DocumentProcessor\DocumentProcessor.ProcessorService\DocumentProcessor.ProcessorService.csproj", "{2EEF1F71-96CF-451B-BC74-B72C30E0925F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - Custom Serialization", "09 - Custom Serialization", "{EF3CAB39-99CF-447A-89CA-3A9C2099AC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSerialization", "09 - Custom Serialization\CustomSerialization\CustomSerialization.csproj", "{01109D89-8577-45DD-8114-2C9696EBB143}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +63,10 @@ Global
 		{2EEF1F71-96CF-451B-BC74-B72C30E0925F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EEF1F71-96CF-451B-BC74-B72C30E0925F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EEF1F71-96CF-451B-BC74-B72C30E0925F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01109D89-8577-45DD-8114-2C9696EBB143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01109D89-8577-45DD-8114-2C9696EBB143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01109D89-8577-45DD-8114-2C9696EBB143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01109D89-8577-45DD-8114-2C9696EBB143}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,5 +80,6 @@ Global
 		{A0A17443-9AAA-4FF3-A8A0-2A0D5E0271AC} = {FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}
 		{759F4042-A226-4BA6-99BA-132654A2CD36} = {FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}
 		{2EEF1F71-96CF-451B-BC74-B72C30E0925F} = {FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}
+		{01109D89-8577-45DD-8114-2C9696EBB143} = {EF3CAB39-99CF-447A-89CA-3A9C2099AC63}
 	EndGlobalSection
 EndGlobal

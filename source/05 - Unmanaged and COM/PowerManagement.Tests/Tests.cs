@@ -9,7 +9,7 @@ namespace PowerManagement.Tests
         /// <summary>
         /// Task part 1.1 - getting system perameters
         /// </summary>
-        [TestMethod]
+        //[TestMethod]
         public void TestMethod1()
         {
             IPowerManagementAdapter adapter = new PowerManagementAdapter();
