@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Expressions And IQueryable", "03 - Expressions And IQueryable", "{B66249EC-75FA-42CD-8757-11EFEEBC58F1}"
 EndProject
@@ -28,6 +28,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - Custom Serialization", "09 - Custom Serialization", "{EF3CAB39-99CF-447A-89CA-3A9C2099AC63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSerialization", "09 - Custom Serialization\CustomSerialization\CustomSerialization.csproj", "{01109D89-8577-45DD-8114-2C9696EBB143}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Advanced XML", "10 - Advanced XML", "{062E0720-8C6A-4B9D-926E-B1CCDF9C214A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XsdVerify", "10 - Advanced XML\XsdVerify\XsdVerify.csproj", "{92E8196E-8416-43BD-AD8B-DD7C4D674ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +71,10 @@ Global
 		{01109D89-8577-45DD-8114-2C9696EBB143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01109D89-8577-45DD-8114-2C9696EBB143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01109D89-8577-45DD-8114-2C9696EBB143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E8196E-8416-43BD-AD8B-DD7C4D674ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E8196E-8416-43BD-AD8B-DD7C4D674ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E8196E-8416-43BD-AD8B-DD7C4D674ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E8196E-8416-43BD-AD8B-DD7C4D674ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,5 +89,6 @@ Global
 		{759F4042-A226-4BA6-99BA-132654A2CD36} = {FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}
 		{2EEF1F71-96CF-451B-BC74-B72C30E0925F} = {FAA68F50-7EFC-4BDF-9D9A-0B8D24AF01C3}
 		{01109D89-8577-45DD-8114-2C9696EBB143} = {EF3CAB39-99CF-447A-89CA-3A9C2099AC63}
+		{92E8196E-8416-43BD-AD8B-DD7C4D674ED5} = {062E0720-8C6A-4B9D-926E-B1CCDF9C214A}
 	EndGlobalSection
 EndGlobal
