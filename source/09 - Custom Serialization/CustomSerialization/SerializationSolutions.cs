@@ -20,7 +20,7 @@ namespace CustomSerialization
             dbContext = new Northwind();
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void SerializationCallbacks()
         {
             dbContext.Configuration.ProxyCreationEnabled = false;
@@ -32,7 +32,7 @@ namespace CustomSerialization
             tester.SerializeAndDeserialize(categories);
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void ISerializable()
         {
             dbContext.Configuration.ProxyCreationEnabled = true;
@@ -43,7 +43,7 @@ namespace CustomSerialization
             tester.SerializeAndDeserialize(products);
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void ISerializationSurrogate()
         {
             dbContext.Configuration.ProxyCreationEnabled = false;
@@ -68,7 +68,7 @@ namespace CustomSerialization
             tester.SerializeAndDeserialize(orderDetails);
         }
 
-        [TestMethod]
+        //[TestMethod]
         public void IDataContractSurrogate()
         {
             dbContext.Configuration.ProxyCreationEnabled = true;
